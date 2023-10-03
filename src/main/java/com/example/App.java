@@ -4,6 +4,9 @@ public class App
 {
     public static void main( String[] args )
     {
-        System.out.println( "Hello World!" );
+        
+        ServerStr server = new ServerStr();
+        server.attendi(3000);
+        server.comunica();
     }
 }
